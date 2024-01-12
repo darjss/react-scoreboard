@@ -1,0 +1,23 @@
+.card{
+    display: flex;
+    justify-content: space-between;
+      border-bottom: 1px solid gainsboro;
+    align-items: center;
+    padding-bottom: 5px;
+
+}
+.counter{
+    display: flex;
+    gap: 10px;
+    background-color: rgb(245, 222, 196);
+    border-radius: 12px;
+    align-items: center;
+}
+.counter button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    padding: 5px;
+    background-color: #fff;
+}

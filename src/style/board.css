@@ -1,0 +1,24 @@
+.board {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 5px;
+  border: 1px solid gainsboro;
+  padding: 20px;
+  background-color: ivory;
+}
+.titleCont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardCont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btnCont{
+    display: flex;
+    justify-content: space-between;
+}

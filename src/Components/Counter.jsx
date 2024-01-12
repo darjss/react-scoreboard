@@ -1,11 +1,12 @@
-const Counter = ({ index, name, score, incScore, decScore }) => {
+import "../style/counter.css";
+const Counter = ({ id, name, score, incScore, decScore }) => {
   return (
-    <div>
+    <div className="card">
       <p>{name}</p>
-      <div>
-        <button onClick={() => decScore(index)}>-</button>
+      <div className="counter">
+        <button onClick={() => decScore(id)}>-</button>
         <h2>{score}</h2>
-        <button onClick={() => incScore(index)}>+</button>
+        <button onClick={() => incScore(id)}>+</button>
       </div>
     </div>
   );
